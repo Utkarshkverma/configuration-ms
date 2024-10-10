@@ -2,7 +2,7 @@ spring:
   application:
     name: loans
   datasource:
-    url: jdbc:mysql://localhost:3305/loansProd
+    url: jdbc:mysql://localhost:3307/loansProd
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: user
     password: password
