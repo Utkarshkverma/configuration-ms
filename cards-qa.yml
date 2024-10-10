@@ -3,11 +3,13 @@ spring:
     name: cards
   datasource:
     url: jdbc:mysql://localhost:3304/cardsQa
-    driver-class-name: com.mysql.cj.jdbc.Driver
     username: user
     password: password
+    driver-class-name: com.mysql.cj.jdbc.Driver
     jpa:
-      database-platform: org.hibernate.dialect.MySQLDialect
+      hibernate:
+        ddl-auto: update
+      show-sql: true
 
 
 server:

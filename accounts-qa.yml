@@ -2,12 +2,14 @@ spring:
   application:
     name: accounts
   datasource:
-    url: jdbc:mysql://localhost:3305/accountsQA
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3305/accountsQa
     username: user
     password: password
+    driver-class-name: com.mysql.cj.jdbc.Driver
     jpa:
-      database-platform: org.hibernate.dialect.MySQLDialect
+      hibernate:
+        ddl-auto: update
+      show-sql: true
 
 
 server:
