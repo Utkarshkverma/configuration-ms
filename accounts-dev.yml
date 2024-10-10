@@ -17,10 +17,10 @@ build:
   version: "1.0"
 
 accounts:
-  message: "Welcome to QBank related local APIs"
+  message: "Welcome to QBank related devlopment APIs"
   contactDetails:
     name : "Utkarsh Kumar Verma"
-    email : "vermau2k01@gmail.com"
+    email : "{cipher}000f6709688b20ba3ea0f0f5673b269f30dd72bc46397f7700c4e069a795376d940f73c346cec176c1dbddf153a736ef"
   onCallSupport:
     - "+91 9905893940"
     - "+91 7209806738"
